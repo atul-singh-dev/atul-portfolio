@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atul Singh | Full-Stack Developer</title>
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- बैकग्राउंड पार्टिकल्स -->
+    <div id="tsparticles"></div>
+
+<!-- Header / Navbar -->
+<header>
+    <nav>
+        <div class="logo">Atul <span>.developer</span></div>
+        <ul class="nav-links">
+            <li><a href="#home"><i class="fa-solid fa-house"></i> होम</a></li>
+            <li><a href="#projects"><i class="fa-solid fa-rocket"></i> प्रोजेक्ट्स</a></li>
+            <li><a href="#skills"><i class="fa-solid fa-code"></i> स्किल्स</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-paper-plane"></i> संपर्क</a></li>
+        </ul>
+    </nav>
+</header>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+
+                <!-- ANIMATED GLOWING STATUS BADGE -->
+                <div class="status-badge">
+                    <span class="dot"></span> AVAILABLE FOR PROJECTS
+                </div>
+
+                <h1>नमस्ते, मैं हूँ <span>Atul Singh</span></h1>
+
+                <!-- PARAGRAPH STRUCTURE -->
+                <p class="hero-desc">
+                    मैं एक <span id="typing-text"></span> हूँ।
+                </p>
+                <p class="hero-subtext">
+                    मैं मॉडर्न, फ़ास्ट और एनिमेटेड वेब एप्लिकेशंस और स्कूल ERP सिस्टम्स तैयार करता हूँ।
+                </p>
+
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary">
+                        <i class="fa-solid fa-rocket"></i> लाइव प्रोजेक्ट्स देखें
+                    </a>
+                    <a href="#contact" class="btn-secondary">संपर्क करें</a>
+                </div>
+            </div>
+
+            <div class="hero-right" data-aos="zoom-in-left" data-aos-duration="1000" data-aos-delay="400">
+                <div class="code-box">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="code-content">
+                        <i class="fa-solid fa-code" style="font-size: 80px; color: var(--neon-green);"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="section-title" data-aos="fade-up" data-aos-duration="800">
+            <h2>Featured <span>Projects</span></h2>
+            <p>मेरे द्वारा बनाए गए कुछ बेहतरीन वेब डेवलपमेंट प्रोजेक्ट्स</p>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1: School ERP -->
+            <div class="project-card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
+                <div class="project-img-box">
+                    <i class="fa-solid fa-graduation-cap" style="font-size: 60px; color: var(--neon-green);"></i>
+                </div>
+                <div class="project-content">
+                    <h3> School ERP System</h3>
+                    <p>स्कूल मैनेजमेंट के लिए कम्पलीट वेब एप्लिकेशन। इसमें एडमिन, टीचर, स्टूडेंट और पेरेंट्स डैशबोर्ड, अटेंडेंस और मार्क्स मैनेजमेंट की सुविधा है।</p>
+                    <div class="tech-stack">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+<a href="http://atul-school-erp.site.je/login.php" target="_blank" class="btn-primary">
+    <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo देखें
+</a>
+
+                </div>
+            </div>
+<div class="project-card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
+    <div class="project-img-box">
+        <i class="fa-solid fa-gamepad" style="font-size: 60px; color: var(--neon-green);"></i>
+    </div>
+    <div class="project-content">
+        <h3>War-Room Elite</h3>
+        <p>Free Fire CS और BR मोड के लिए टैक्टिकल कॉम्बैट, स्क्वाड रोल्स और जोन रोटेशन गाइड वेब एप्लीकेशन।</p>
+        <div class="tech-stack">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+        </div>
+        <a href="https://atul-singh-dev.github.io/cs-br-warroom/" target="_blank" class="btn-primary">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo देखें
+        </a>
+    </div>
+</div>
+
+            <div class="project-card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+    <div class="project-img-box">
+        <i class="fa-solid fa-laptop-code" style="font-size: 60px; color: var(--neon-green);"></i>
+    </div>
+    <div class="project-content">
+        <h3>Modern Landing Page</h3>
+        <p>HTML5 और CSS3 से बनाया गया एक मॉडर्न और रिस्पॉन्सिव लैंडिंग पेज, जिसमें अट्रैक्टिव डिज़ाइन और क्लीन लेआउट है।</p>
+        <div class="tech-stack">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>Responsive Design</span>
+        </div>
+        <a href="https://atul-singh-dev.github.io/cybercraft-landing-page/" target="_blank" class="btn-primary">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo देखें
+        </a>
+    </div>
+</div>
+
+            <!-- Project 2: Amazon Clone -->
+            <div class="project-card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                <div class="project-img-box">
+                    <i class="fa-brands fa-amazon" style="font-size: 60px; color: var(--neon-green);"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Amazon E-Commerce Clone</h3>
+                    <p>प्रैक्टिस के लिए बनाई गई एक आधुनिक ई-कॉमर्स वेबसाइट, जो दिखने और काम करने में बिल्कुल अमेज़न जैसी है।</p>
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Responsive UI</span>
+                    </div>
+                    <a href="https://atul-amazon.netlify.app/" target="_blank" class="btn-primary">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo देखें
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="section-title" data-aos="fade-up" data-aos-duration="800">
+            <h2>Technical <span>Skills</span></h2>
+            <p>वेब डेवलपमेंट और प्रोग्रामिंग भाषाएँ जिनमें मुझे महारत हासिल है</p>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fa-brands fa-html5" style="font-size: 40px; color: var(--neon-green);"></i>
+                <h3>HTML5 & CSS3</h3>
+                <p>Clean UI/UX, Flexbox, Grid, CSS Animations</p>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fa-brands fa-js" style="font-size: 40px; color: var(--neon-green);"></i>
+                <h3>JavaScript</h3>
+                <p>DOM Manipulation, Dynamic UI, Interactivity</p>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                <i class="fa-brands fa-php" style="font-size: 40px; color: var(--neon-green);"></i>
+                <h3>PHP</h3>
+                <p>Backend Logic, Session Management, ERP Architecture</p>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                <i class="fa-solid fa-database" style="font-size: 40px; color: var(--neon-green);"></i>
+                <h3>MySQL Database</h3>
+                <p>Database Design, Queries, Data Management</p>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                <i class="fa-solid fa-code" style="font-size: 40px; color: var(--neon-green);"></i>
+                <h3>C Language</h3>
+                <p>Core Programming Concepts & Algorithms</p>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="600">
+                <i class="fa-solid fa-mobile-screen-button" style="font-size: 40px; color: var(--neon-green);"></i>
+                <h3>Responsive Design</h3>
+                <p>Mobile-First Layouts & Cross-Browser Compatibility</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="section-title" data-aos="fade-up" data-aos-duration="800">
+            <h2>Get In <span>Touch</span></h2>
+            <p>क्या आप अपने स्कूल या बिज़नेस के लिए वेबसाइट/ERP बनवाना चाहते हैं? मुझसे संपर्क करें!</p>
+        </div>
+
+        <div class="contact-container" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="contact-form">
+                <div class="input-group">
+                    <input type="text" id="senderName" placeholder="आपका नाम" required>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="senderContact" placeholder="आपका ईमेल या मोबाइल नंबर" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="senderMsg" rows="5" placeholder="आपका संदेश / प्रोजेक्ट की जानकारी" required></textarea>
+                </div>
+                <button type="button" onclick="sendToWhatsApp()" class="btn-primary" style="width: 100%; justify-content: center;">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp पर मैसेज भेजें
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer style="text-align: center; padding: 25px; border-top: 1px solid rgba(255, 255, 255, 0.1); color: #888; font-size: 0.9rem;">
+        <p style="margin-bottom: 5px;">© 2026 <strong>Atul Singh</strong>. All Rights Reserved.</p>
+        <p>
+            Powered by <a href="https://www.instagram.com/atulxss?igsh=MWM2a3l6NHJ4ZnQyNw==" target="_blank" style="color: var(--neon-green); text-decoration: none; font-weight: bold; transition: 0.3s;">atulxss</a>
+        </p>
+    </footer>
+
+    <!-- WhatsApp Redirect Script -->
+    <script>
+    function sendToWhatsApp() {
+        var phone = "918726772406"; 
+        var name = document.getElementById("senderName").value;
+        var contact = document.getElementById("senderContact").value;
+        var message = document.getElementById("senderMsg").value;
+
+        if(name == "" || message == "") {
+            alert("कृपया नाम और मैसेज भरें!");
+            return;
+        }
+
+        var url = "https://wa.me/" + phone + "?text=" 
+            + "*नाम:* " + encodeURIComponent(name) + "%0A"
+            + "*संपर्क:* " + encodeURIComponent(contact) + "%0A"
+            + "*संदेश:* " + encodeURIComponent(message);
+
+        window.open(url, '_blank');
+    }
+    </script>
+
+    <!-- Particles.js Script -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.12.0/tsparticles.slim.bundle.min.js"></script>
+    <script>
+        tsParticles.load("tsparticles", {
+            particles: {
+                number: { value: 50, density: { enable: true, area: 800 } },
+                color: { value: "#00ff88" },
+                shape: { type: "circle" },
+                opacity: { value: 0.3, random: true },
+                size: { value: 3, random: true },
+                move: { enable: true, speed: 1, direction: "none", random: true, straight: false, out_mode: "out" }
+            },
+            interactivity: {
+                events: { onhover: { enable: true, mode: "repulse" } }
+            },
+            retina_detect: true,
+            background: { color: "transparent" }
+        });
+    </script>
+
+    <!-- AOS Animation Script Init -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 900,
+        once: false,
+        mirror: true
+      });
+    </script>
+
+    <!-- Typing Animation Script -->
+    <script>
+    const words = ["Full-Stack Developer", "Web Designer", "ERP Developer", "UI/UX Enthusiast"];
+    let wordIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    const typingElement = document.getElementById('typing-text');
+
+    function typeEffect() {
+        const currentWord = words[wordIndex];
+
+        if (isDeleting) {
+            typingElement.textContent = currentWord.substring(0, charIndex - 1);
+            charIndex--;
+        } else {
+            typingElement.textContent = currentWord.substring(0, charIndex + 1);
+            charIndex++;
+        }
+
+        let typeSpeed = isDeleting ? 40 : 80;
+
+        if (!isDeleting && charIndex === currentWord.length) {
+            typeSpeed = 2000;
+            isDeleting = true;
+        } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            wordIndex = (wordIndex + 1) % words.length;
+            typeSpeed = 400;
+        }
+
+        setTimeout(typeEffect, typeSpeed);
+    }
+
+    document.addEventListener("DOMContentLoaded", typeEffect);
+    </script>
+</body>
+</html>
