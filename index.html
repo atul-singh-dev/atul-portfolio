@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Atul Singh | Full-Stack Developer & Web Designer</title>
+    <meta name="description" content="Atul Singh - Full-Stack Developer, Web Designer and ERP Developer. Explore projects, skills and social profiles.">
+    <meta name="keywords" content="Atul Singh, Full Stack Developer, Web Designer, ERP Developer, JavaScript, PHP, MySQL">
+    <meta name="author" content="Atul Singh">
+
+    <!-- Social/SEO preview -->
+    <meta property="og:title" content="Atul Singh | Full-Stack Developer">
+    <meta property="og:description" content="Full-Stack Developer & Web Designer">
+    <meta property="og:type" content="website">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- AOS Scroll Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Scroll progress -->
+    <div id="scroll-progress"></div>
+
+    <!-- Background -->
+    <div id="tsparticles"></div>
+    <div class="cursor-glow"></div>
+
+    <!-- HEADER -->
+    <header id="header">
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                Atul<span>.dev</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home"><i class="fa-solid fa-house"></i> होम</a></li>
+                <li><a href="#about"><i class="fa-solid fa-user"></i> मेरे बारे में</a></li>
+                <li><a href="#projects"><i class="fa-solid fa-rocket"></i> प्रोजेक्ट्स</a></li>
+                <li><a href="#skills"><i class="fa-solid fa-code"></i> स्किल्स</a></li>
+                <li><a href="#social"><i class="fa-solid fa-share-nodes"></i> Social</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-paper-plane"></i> संपर्क</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <main>
+
+        <section class="hero-section" id="home">
+
+            <div class="hero-bg-glow glow-one"></div>
+            <div class="hero-bg-glow glow-two"></div>
+
+            <div class="hero-container">
+
+                <div class="hero-content">
+
+                    <div class="status-badge" data-aos="fade-down">
+                        <span></span> AVAILABLE FOR PROJECTS
+                    </div>
+
+                    <h1 data-aos="fade-up" data-aos-delay="150">
+                        नमस्ते, मैं हूँ <span>Atul Singh</span>
+                    </h1>
+
+                    <p class="hero-desc" data-aos="fade-up" data-aos-delay="300">
+                        मैं एक <span id="typing-text"></span> हूँ।
+                    </p>
+
+                    <p class="hero-subtext" data-aos="fade-up" data-aos-delay="400">
+                        मैं मॉडर्न, फ़ास्ट और एनिमेटेड Web Applications,
+                        Business Websites और School ERP Systems तैयार करता हूँ।
+                    </p>
+
+                    <div class="hero-btns" data-aos="fade-up" data-aos-delay="500">
+                        <a href="#projects" class="btn-primary">
+                            <i class="fa-solid fa-rocket"></i>
+                            प्रोजेक्ट्स देखें
+                        </a>
+
+                        <a href="#contact" class="btn-secondary">
+                            संपर्क करें
+                        </a>
+                    </div>
+
+                    <div class="hero-socials" data-aos="fade-up" data-aos-delay="650">
+                        <a href="https://www.linkedin.com/in/atulsingh-webdev" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/atulxss/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://x.com/Atulxss" target="_blank" rel="noopener noreferrer" aria-label="X">
+                            <span class="x-symbol">𝕏</span>
+                        </a>
+                        <a href="https://www.facebook.com/share/1HeUWmDU16/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://github.com/atul-singh-dev" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="hero-right" data-aos="zoom-in" data-aos-delay="350">
+
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+
+                    <div class="code-box">
+                        <div class="code-header">
+                            <span class="window-dot red"></span>
+                            <span class="window-dot yellow"></span>
+                            <span class="window-dot green"></span>
+                        </div>
+
+                        <div class="code-content">
+                            <div class="code-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <div class="code-lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ABOUT -->
+        <section class="about-section section" id="about">
+
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-kicker">ABOUT ME</span>
+                <h2>मेरे बारे <span>में</span></h2>
+                <p>एक developer, designer और problem solver के रूप में मेरी पहचान।</p>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-card glass-card" data-aos="fade-right">
+                    <div class="about-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Developer</h3>
+                    <p>
+                        मैं responsive और modern websites तथा web applications
+                        बनाने पर focus करता हूँ, जिनका UI fast, clean और user-friendly हो।
+                    </p>
+                </div>
+
+                <div class="about-card glass-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="about-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3>ERP Developer</h3>
+                    <p>
+                        School और business management के लिए practical
+                        dashboard और database-based systems तैयार करता हूँ।
+                    </p>
+                </div>
+
+                <div class="about-card glass-card" data-aos="fade-left" data-aos-delay="300">
+                    <div class="about-icon">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <h3>UI / Web Designer</h3>
+                    <p>
+                        Dark, neon और modern interfaces के साथ attractive
+                        और responsive user experiences design करता हूँ।
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section class="projects-section section" id="projects">
+
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-kicker">MY WORK</span>
+                <h2>Featured <span>Projects</span></h2>
+                <p>मेरे द्वारा बनाए गए कुछ प्रमुख Web Development Projects</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- 1 -->
+                <article class="project-card" data-aos="fade-up" data-aos-delay="50">
+
+                    <div class="project-img-box">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span class="project-number">01</span>
+                    </div>
+
+                    <div class="project-content">
+                        <h3> School ERP System</h3>
+
+                        <p>
+                            School management के लिए बनाया गया web-based ERP system,
+                            जिसमें Admin, Teacher, Student और Parent management,
+                            Attendance तथा Marks Management जैसी सुविधाएँ हैं।
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://atul-school-erp.site.je/login.php"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn-primary small-btn">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+
+
+                <!-- 2 -->
+                <article class="project-card" data-aos="fade-up" data-aos-delay="120">
+
+                    <div class="project-img-box">
+                        <i class="fa-brands fa-amazon"></i>
+                        <span class="project-number">02</span>
+                    </div>
+
+                    <div class="project-content">
+                        <h3>Amazon E-Commerce Clone</h3>
+
+                        <p>
+                            Practice के लिए बनाई गई modern responsive e-commerce
+                            website जिसमें Amazon-inspired UI और responsive design है।
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Responsive UI</span>
+                        </div>
+
+                        <a href="https://atul-singh-dev.github.io/amazon-clone/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn-primary small-btn">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+
+
+                <!-- 3 -->
+                <article class="project-card" data-aos="fade-up" data-aos-delay="190">
+
+                    <div class="project-img-box">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <span class="project-number">03</span>
+                    </div>
+
+                    <div class="project-content">
+                        <h3>War-Room Elite</h3>
+
+                        <p>
+                            Futuristic high-tech interface जिसमें modern dashboard,
+                            interactive elements और responsive design का इस्तेमाल किया गया है।
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://atul-singh-dev.github.io/cs-br-warroom/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn-primary small-btn">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+
+
+                <!-- 4 -->
+                <article class="project-card" data-aos="fade-up" data-aos-delay="260">
+
+                    <div class="project-img-box">
+                        <i class="fa-solid fa-utensils"></i>
+                        <span class="project-number">04</span>
+                    </div>
+
+                    <div class="project-content">
+                        <h3>Digital Cafe Menu</h3>
+
+                        <p>
+                            Restaurant और Cafe के लिए बनाया गया modern digital menu
+                            website जो mobile और desktop दोनों पर responsive है।
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Responsive</span>
+                        </div>
+
+                        <a href="https://atul-singh-dev.github.io/digital-menu/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn-primary small-btn">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+
+
+                <!-- 5 -->
+                <article class="project-card" data-aos="fade-up" data-aos-delay="330">
+
+                    <div class="project-img-box">
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <span class="project-number">05</span>
+                    </div>
+
+                    <div class="project-content">
+                        <h3>IronFit Gym & Fitness</h3>
+
+                        <p>
+                            Gym और Fitness business के लिए बनाया गया modern landing
+                            website जिसमें professional responsive UI दिया गया है।
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Responsive Design</span>
+                        </div>
+
+                        <a href="https://atul-singh-dev.github.io/ironfit-gym/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn-primary small-btn">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+
+
+                <!-- 6 -->
+                <article class="project-card" data-aos="fade-up" data-aos-delay="400">
+
+                    <div class="project-img-box">
+                        <i class="fa-solid fa-rocket"></i>
+                        <span class="project-number">06</span>
+                    </div>
+
+                    <div class="project-content">
+                        <h3>CyberCraft Landing Page</h3>
+
+                        <p>
+                            Futuristic landing page जिसमें premium UI, responsive
+                            layout और attractive visual design का इस्तेमाल किया गया है।
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Responsive</span>
+                            <span>UI Design</span>
+                        </div>
+
+                        <a href="https://atul-singh-dev.github.io/cybercraft-landing-page/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn-primary small-btn">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- SKILLS -->
+        <section class="skills-section section" id="skills">
+
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-kicker">MY EXPERTISE</span>
+                <h2>Technical <span>Skills</span></h2>
+                <p>वे technologies जिनके साथ मैं projects बनाता हूँ।</p>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="50">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML5 & CSS3</h3>
+                    <p>Modern UI, Flexbox, Grid, Animations</p>
+                </div>
+
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="120">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>DOM, Dynamic UI & Interactivity</p>
+                </div>
+
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="190">
+                    <i class="fa-brands fa-php"></i>
+                    <h3>PHP</h3>
+                    <p>Backend Logic & ERP Architecture</p>
+                </div>
+
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="260">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>MySQL</h3>
+                    <p>Database Design & Data Management</p>
+                </div>
+
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="330">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>C Language</h3>
+                    <p>Programming Concepts & Algorithms</p>
+                </div>
+
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Mobile-first & Cross-device Layouts</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SOCIAL -->
+        <section class="social-section section" id="social">
+
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-kicker">CONNECT</span>
+                <h2>Connect With <span>Atul Singh</span></h2>
+                <p>मेरे सभी official social profiles</p>
+            </div>
+
+            <div class="social-grid">
+
+                <a class="social-card" href="https://www.linkedin.com/in/atulsingh-webdev"
+                   target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="50">
+                    <div class="social-icon">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <p>Professional Profile</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-up-right-from-square social-arrow"></i>
+                </a>
+
+                <a class="social-card" href="https://www.instagram.com/atulxss/"
+                   target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="120">
+                    <div class="social-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div>
+                        <h3>Instagram</h3>
+                        <p>@atulxss</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-up-right-from-square social-arrow"></i>
+                </a>
+
+                <a class="social-card" href="https://x.com/Atulxss"
+                   target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="190">
+                    <div class="social-icon x-icon">
+                        <span>𝕏</span>
+                    </div>
+                    <div>
+                        <h3>X / Twitter</h3>
+                        <p>@Atulxss</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-up-right-from-square social-arrow"></i>
+                </a>
+
+                <a class="social-card" href="https://www.facebook.com/share/1HeUWmDU16/"
+                   target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="260">
+                    <div class="social-icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div>
+                        <h3>Facebook</h3>
+                        <p>Atul Singh</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-up-right-from-square social-arrow"></i>
+                </a>
+
+                <a class="social-card" href="https://github.com/atul-singh-dev"
+                   target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="330">
+                    <div class="social-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>My Code & Projects</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-up-right-from-square social-arrow"></i>
+                </a>
+
+            </div>
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="contact-section section" id="contact">
+
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-kicker">CONTACT</span>
+                <h2>Get In <span>Touch</span></h2>
+                <p>Website या ERP बनवाना चाहते हैं? मुझसे संपर्क करें।</p>
+            </div>
+
+            <div class="contact-container" data-aos="fade-up">
+
+                <div class="contact-form glass-card">
+
+                    <div class="input-group">
+                        <label for="senderName">आपका नाम</label>
+                        <input type="text" id="senderName" placeholder="अपना नाम लिखें">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="senderContact">ईमेल / मोबाइल</label>
+                        <input type="text" id="senderContact" placeholder="आपका ईमेल या मोबाइल">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="senderMsg">प्रोजेक्ट की जानकारी</label>
+                        <textarea id="senderMsg" rows="6" placeholder="आपको किस तरह की website / ERP चाहिए?"></textarea>
+                    </div>
+
+                    <button type="button" class="btn-primary whatsapp-btn" onclick="sendToWhatsApp()">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        WhatsApp पर मैसेज भेजें
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-brand">
+            <h2>Atul<span>.dev</span></h2>
+            <p>Full-Stack Developer & Web Designer</p>
+        </div>
+
+        <div class="footer-socials">
+
+            <a href="https://www.linkedin.com/in/atulsingh-webdev" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://www.instagram.com/atulxss/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://x.com/Atulxss" target="_blank" rel="noopener noreferrer">
+                <span>𝕏</span>
+            </a>
+
+            <a href="https://www.facebook.com/share/1ECF25wKKn/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="https://github.com/atul-singh-dev" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 <strong>Atul Singh</strong> — All Rights Reserved.
+        </p>
+
+        <p class="powered">
+            Powered by <span>@atulxss</span>
+        </p>
+
+    </footer>
+
+
+    <!-- BACK TO TOP -->
+    <button id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- tsParticles -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.12.0/tsparticles.slim.bundle.min.js"></script>
+
+    <script>
+        /* =========================================
+           AOS
+        ========================================= */
+        AOS.init({
+            duration: 900,
+            easing: "ease-out-cubic",
+            once: true,
+            offset: 70,
+            mirror: false
+        });
+
+
+        /* =========================================
+           TYPING EFFECT
+        ========================================= */
+        const words = [
+            "Full-Stack Developer",
+            "Web Designer",
+            "ERP Developer",
+            "UI/UX Enthusiast"
+        ];
+
+        let wordIndex = 0;
+        let charIndex = 0;
+        let deleting = false;
+
+        function typingEffect() {
+
+            const element = document.getElementById("typing-text");
+            const currentWord = words[wordIndex];
+
+            if (!deleting) {
+
+                element.textContent =
+                    currentWord.substring(0, charIndex + 1);
+
+                charIndex++;
+
+                if (charIndex === currentWord.length) {
+                    deleting = true;
+                    setTimeout(typingEffect, 1700);
+                    return;
+                }
+
+            } else {
+
+                element.textContent =
+                    currentWord.substring(0, charIndex - 1);
+
+                charIndex--;
+
+                if (charIndex === 0) {
+                    deleting = false;
+                    wordIndex =
+                        (wordIndex + 1) % words.length;
+                }
+            }
+
+            setTimeout(
+                typingEffect,
+                deleting ? 55 : 95
+            );
+        }
+
+        typingEffect();
+
+
+        /* =========================================
+           NAVBAR
+        ========================================= */
+        const header = document.getElementById("header");
+        const navLinks = document.getElementById("navLinks");
+        const menuToggle = document.getElementById("menuToggle");
+
+        window.addEventListener("scroll", () => {
+
+            if (window.scrollY > 40) {
+                header.classList.add("scrolled");
+            } else {
+                header.classList.remove("scrolled");
+            }
+
+        });
+
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+
+            menuToggle.innerHTML =
+                navLinks.classList.contains("active")
+                ? '<i class="fa-solid fa-xmark"></i>'
+                : '<i class="fa-solid fa-bars"></i>';
+        });
+
+        document.querySelectorAll(".nav-links a").forEach(link => {
+
+            link.addEventListener("click", () => {
+
+                navLinks.classList.remove("active");
+
+                menuToggle.innerHTML =
+                    '<i class="fa-solid fa-bars"></i>';
+
+            });
+
+        });
+
+
+        /* =========================================
+           SCROLL PROGRESS
+        ========================================= */
+        const progress =
+            document.getElementById("scroll-progress");
+
+        window.addEventListener("scroll", () => {
+
+            const scrollTop = window.scrollY;
+
+            const height =
+                document.documentElement.scrollHeight -
+                window.innerHeight;
+
+            const percent =
+                height > 0
+                ? (scrollTop / height) * 100
+                : 0;
+
+            progress.style.width =
+                percent + "%";
+
+        });
+
+
+        /* =========================================
+           BACK TO TOP
+        ========================================= */
+        const backToTop =
+            document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+
+            if (window.scrollY > 500) {
+                backToTop.classList.add("show");
+            } else {
+                backToTop.classList.remove("show");
+            }
+
+        });
+
+        backToTop.addEventListener("click", () => {
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+
+        });
+
+
+        /* =========================================
+           3D PROJECT TILT
+        ========================================= */
+        if (window.matchMedia("(pointer:fine)").matches) {
+
+            document.querySelectorAll(".project-card").forEach(card => {
+
+                card.addEventListener("mousemove", (event) => {
+
+                    const rect =
+                        card.getBoundingClientRect();
+
+                    const x =
+                        event.clientX - rect.left;
+
+                    const y =
+                        event.clientY - rect.top;
+
+                    const centerX =
+                        rect.width / 2;
+
+                    const centerY =
+                        rect.height / 2;
+
+                    const rotateX =
+                        ((y - centerY) / centerY) * -2.5;
+
+                    const rotateY =
+                        ((x - centerX) / centerX) * 2.5;
+
+                    card.style.transform =
+                        `perspective(1000px)
+                         rotateX(${rotateX}deg)
+                         rotateY(${rotateY}deg)
+                         translateY(-7px)`;
+
+                });
+
+                card.addEventListener("mouseleave", () => {
+                    card.style.transform = "";
+                });
+
+            });
+
+        }
+
+
+        /* =========================================
+           PARTICLES
+        ========================================= */
+        tsParticles.load("tsparticles", {
+
+            particles: {
+
+                number: {
+                    value: 55,
+                    density: {
+                        enable: true,
+                        area: 900
+                    }
+                },
+
+                color: {
+                    value: ["#00ff88", "#00d2ff"]
+                },
+
+                shape: {
+                    type: "circle"
+                },
+
+                opacity: {
+                    value: 0.35,
+                    random: true
+                },
+
+                size: {
+                    value: 2.5,
+                    random: true
+                },
+
+                links: {
+                    enable: true,
+                    distance: 130,
+                    color: "#00ff88",
+                    opacity: 0.08,
+                    width: 1
+                },
+
+                move: {
+                    enable: true,
+                    speed: 0.7,
+                    direction: "none",
+                    random: true,
+                    straight: false,
+                    outModes: {
+                        default: "out"
+                    }
+                }
+            },
+
+            interactivity: {
+
+                events: {
+                    onHover: {
+                        enable: true,
+                        mode: "repulse"
+                    }
+                },
+
+                modes: {
+                    repulse: {
+                        distance: 100,
+                        duration: 0.4
+                    }
+                }
+            },
+
+            retina: true
+        });
+
+
+        /* =========================================
+           WHATSAPP
+        ========================================= */
+        function sendToWhatsApp() {
+
+            const name =
+                document.getElementById("senderName").value.trim();
+
+            const contact =
+                document.getElementById("senderContact").value.trim();
+
+            const message =
+                document.getElementById("senderMsg").value.trim();
+
+            if (!name || !message) {
+
+                alert("कृपया अपना नाम और मैसेज भरें।");
+                return;
+
+            }
+
+            /*
+             * अपना WhatsApp number यहाँ डालें।
+             * Format: country code + number, बिना + या spaces.
+             */
+            const phone = "918726772406";
+
+            const text =
+                "नमस्ते Atul Singh,%0A%0A" +
+                "*नाम:* " + encodeURIComponent(name) + "%0A" +
+                "*संपर्क:* " + encodeURIComponent(contact) + "%0A" +
+                "*मैसेज:* " + encodeURIComponent(message);
+
+
+            window.open(
+                "https://wa.me/" + phone + "?text=" + text,
+                "_blank"
+            );
+        }
+    </script>
+
+</body>
+</html>

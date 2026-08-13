@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://atul-singh-dev.github.io/atul-portfolio/sitemap.xml
