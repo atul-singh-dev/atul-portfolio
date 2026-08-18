@@ -24,4 +24,4 @@ YOUR_WHATSAPP_NUMBER
 with your WhatsApp number in international format, without + or spaces.
 
 Example:
-919876543210
+918726772406
